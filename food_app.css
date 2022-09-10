@@ -6,7 +6,7 @@
    flex:1;
 }
 .banner div {
-    border: 1px solid white;
+    
     display: block;
     -webkit-text-size-adjust: 100%;
     font-size: 14px;
@@ -28,64 +28,11 @@
     
 }
 .restimg{
-    width: 254px;
-    height: 165px;
-   
+    width: 220px;
+    height: 145px;
+    padding: 50px;
 }
-._2p-Tc{
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.2;
-    -webkit-font-smoothing: antialiased;
-    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
-    letter-spacing: 0;
-    font-weight: 300;
-    box-sizing: inherit;
-    height: 30px;
-    font-size: 10px;
-    color: #93959f;
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    min-width: 1200px;
-    position: relative;
-    margin: 0 auto;
-}
-._3duMr{
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.2;
-    -webkit-font-smoothing: antialiased;
-    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
-    letter-spacing: 0;
-    font-weight: 300;
-    font-size: 10px;
-    color: inherit;
-    box-sizing: inherit;
-}
-.kpkwa{
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.2;
-    -webkit-font-smoothing: antialiased;
-    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
-    letter-spacing: 0;
-    font-weight: 300;
-    font-size: 10px;
-    box-sizing: inherit;
-    background-color: transparent;
-    margin: 0 5px;
-    color: inherit;
-    text-decoration: none;
-}
-._1yRfx{
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.2;
-    -webkit-font-smoothing: antialiased;
-    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
-    letter-spacing: 0;
-    font-weight: 300;
-    font-size: 10px;
-    color: #93959f;
-    box-sizing: inherit;
-}
+
 .banner  {
     flex:3;
     background-color: #171a29;
@@ -93,10 +40,14 @@
 }
 .img12{
     flex: 1;
+    padding: 20px;
     
 }
 .restinf{
     flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .offers{
     flex: 1;
@@ -107,7 +58,7 @@
     flex-direction: row;
 }
 .content_container div{
-    border: 1px solid black;
+    
     text-align: center;
     list-style-type: none;
 }
@@ -122,27 +73,145 @@
     float: right;
 }
 .nav01{
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
-    padding: 16px;
     text-decoration: none;
-    margin: 0;
+    margin: auto;
     padding: 16px;
     overflow: hidden;
     font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
     color:#3D4152;
+    flex-direction: row;
+    align-items: center;
+
     
 }
 .sidebar{
     flex: 1;
     height: 400px;
+    border-right: 1px solid #93959f;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #282c3f;
+    
+    flex-grow: 1;
+    width: 648px;
+    padding: 30px 55px 100px;
 }
 .content{
     flex: 2;
     height: 400px;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #282c3f;
+    box-sizing: inherit;
+    flex-grow: 2;
+    width: 648px;
+    padding: 30px 55px 100px;
+    display: flex;
+    flex-direction: column;
 }
 .cart{
     flex: 1;
     height: 400px;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #282c3f;
+    box-sizing: inherit;
+    flex-grow: 1;
+    width: 648px;
+    padding: 30px 55px 100px;
 }
+.logo{
+    align-items: left;
+    margin-right: 550px;
+}
+
+.bannerinfo{
+
+    margin: auto auto;
+}
+
+._1tr{
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    
+}
+._2tr{
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 10px;
+    box-sizing: inherit;
+}
+.tabban{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 32px;
+
+}
+.tabinf{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 10px;
+    box-sizing: inherit;
+}
+.cendiv{
+ align-items: center;
+ padding-top: 50px;
+}
+
+.conttxt{
+    flex: 1;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.fooddesc{
+    text-align: left;
+
+}
+.contimg{
+    width: 100px;
+    height: 90px;
+    float: right;
+    margin-left:15px;
+    
+}
+.navgtr{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: right;
+}
+.linav{
+    display: inline;
+}
+
+.srchnav{
+    font-size: 30px;
+}
+
+  
